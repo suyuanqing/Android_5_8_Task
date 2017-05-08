@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, Main2Activity.class));
-                Toast.makeText(MainActivity.this, "你好", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "你好啊", Toast.LENGTH_SHORT).show();
             }
         });
 
